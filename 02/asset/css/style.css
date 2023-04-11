@@ -757,3 +757,82 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
+
+
+/*Header 2*/
+
+.full-width-header {
+	position: relative;
+	width: 100%;
+	z-index: 99999;
+}
+
+.full-width-header .toolbar-area {
+	background: #000000;
+	height: 30px;
+}
+
+.full-width-header .toolbar-area .toolbar-contact ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.full-width-header .toolbar-area .toolbar-contact ul li {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 3px 15px 0px 0;
+	border-right: 1px solid #1273eb;
+	color: #fff;
+	font-size: 12px;
+}
+
+.full-width-header .toolbar-area .toolbar-contact ul li i {
+	margin-right: 7px;
+	color: #ffffff;
+}
+
+.full-width-header .toolbar-area .toolbar-contact ul li i.flaticon-email:before {
+	position: relative;
+	bottom: -0.5px;
+}
+
+.full-width-header .toolbar-area .toolbar-contact ul li a {
+	transition: all 0.3s ease;
+	color: #fff;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul {
+	text-align: right;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul li.opening {
+	color: #ffffff;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #1273eb;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul li {
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 8px;
+	padding: 3px 0;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul li.opening i {
+	margin-right: 5px;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul li.opening i:before {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	margin-top: -60px;
+	z-index: 9999999999;
+}
